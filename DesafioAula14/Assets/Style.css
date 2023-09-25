@@ -192,17 +192,19 @@ footer{
 }
 
 #ico-social {
+    margin-bottom: 10px;
     width: 32px;
     
 }
 
 .carousel-control-next, .carousel-control-prev {
     border: none;
+    background-color: transparent;
 }
 
 .carousel-control-prev .fa-chevron-left,
 .carousel-control-next .fa-chevron-right {
-    color: var(--bg-emphasis); 
+    color: var(--bg-font--title); 
     font-size: 30px; 
 }
 
