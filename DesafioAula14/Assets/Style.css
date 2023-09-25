@@ -146,7 +146,14 @@ h1 {
     text-transform: uppercase;
 }
 
+.title{
+    margin: 20px;
+    color: var(--bg-font--title);
+    text-align: center;
+}
+
 .cards-container {
+    margin: 40px;
     display: flex;
     justify-content: space-evenly;
     gap: 1.6rem;    
@@ -188,3 +195,20 @@ footer{
     width: 32px;
     
 }
+
+.carousel-control-next, .carousel-control-prev {
+    border: none;
+}
+
+.carousel-control-prev .fa-chevron-left,
+.carousel-control-next .fa-chevron-right {
+    color: var(--bg-emphasis); 
+    font-size: 30px; 
+}
+
+.carousel-caption {
+    text-align: center;
+}
+
+
+
