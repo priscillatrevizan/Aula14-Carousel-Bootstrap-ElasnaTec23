@@ -4,15 +4,17 @@ body, ul{
     margin: 0px;
     padding: 0px;
 }
-a {
-    font-family: 'Quicksand', sans-serif;
+
+a, a:hover {
     text-decoration: none;
+    color: rgb(149, 10, 161); 
+    text-transform: capitalize;
 }
 
 :root {
     --bs-color-01: rgb(0,0,0);
     --bs-color-02: rgb(255,255,255);
-    --bg-principal: rgb(247, 239, 248);
+    --bg-principal: rgb(252, 231, 255);
     --bg-emphasis: rgb(216, 188, 241);
     --bg-btn-hover: rgb(176, 125, 224);
     --bg-font--title: rgb(149, 10, 161); 
@@ -21,7 +23,7 @@ a {
     --h2-font:'Montserrat Alternates', sans-serif;
     --h1-font:'Open Sans', sans-serif;
     --p-font:'Roboto', sans-serif;
-
+    --a-font:'Quicksand', sans-serif;
 }
 
 
@@ -138,18 +140,31 @@ body{
     font-family: var(--p-font);
 }
 
-h1 {
+.bg-img {
     padding: 1.6rem;
-    font-family: var(--h1-font);
-    font-weight:700;
-    text-align: center;
-    text-transform: uppercase;
+    background-image: url(./Img/banner.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.title{
-    margin: 20px;
-    color: var(--bg-font--title);
-    text-align: center;
+.galery {
+    display: inline-block;
+    background-color: var(--bg-principal);
+    padding: 1em 1.8em;
+    border-radius: 6px;
+    letter-spacing: .2rem;
+    font-family: var(--p-font);
+    
+}
+
+.galery:hover {
+    background-color: var(--bg-btn-hover);
 }
 
 .cards-container {
@@ -197,6 +212,13 @@ footer{
     
 }
 
+/*carousel*/
+
+#carousel{
+    padding: 0;
+    max-width: 100%;
+}
+
 .carousel-control-next, .carousel-control-prev {
     border: none;
     background-color: transparent;
@@ -204,7 +226,7 @@ footer{
 
 .carousel-control-prev .fa-chevron-left,
 .carousel-control-next .fa-chevron-right {
-    color: var(--bg-font--title); 
+    color: var(--bg-emphasis); 
     font-size: 30px; 
 }
 
@@ -213,4 +235,8 @@ footer{
 }
 
 
-
+div.flex {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
