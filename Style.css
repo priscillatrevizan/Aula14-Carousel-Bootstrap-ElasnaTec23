@@ -142,7 +142,7 @@ body{
 
 .bg-img {
     padding: 1.6rem;
-    background-image: url(./Img/banner.jpg);
+    background-image: url(assets/Img/banner.jpg);
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
