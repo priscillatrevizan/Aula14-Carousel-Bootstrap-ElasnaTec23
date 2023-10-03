@@ -1,4 +1,6 @@
-### Desafio  09 - Aula 14 [Elasna_Tech]
+# ElasnaTech_Desafio09
+Aula 14 - Desafio 09
+
 
 # Projeto Galeria de Imagens com Carousel Personalizado
 
